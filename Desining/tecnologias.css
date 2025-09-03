@@ -1,0 +1,44 @@
+
+.class-tecnologia  {
+
+    padding: 2%;
+    margin-left:  15%;
+    margin-right: 15%;
+    background-color: #374345;
+
+}
+
+.class-titulo-tecnologias {
+
+    color: #F39C12;
+    font-size: clamp(0.5rem, 2vw, 2rem);
+    margin: 0;
+    
+}
+
+.class-alinhamento-lateral {
+
+    display: flex;
+
+}
+
+.class-icones-tecnologias {
+
+    display: flex;
+    width: 10%;
+    right: 10%;
+
+}
+
+.class-breve-exp-tecnologica {
+
+    display: flex;
+    flex: 30%;
+    margin: 0;
+    padding: 5%;
+
+}
+
+.class-breve-exp-tecnologica h3{
+
+}

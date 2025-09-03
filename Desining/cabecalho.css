@@ -1,0 +1,103 @@
+
+.class-cabecalho-geral {
+    
+    display: flex;
+    padding-top: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 0%;
+    margin-bottom: 2%;
+
+}
+
+.class-cabecalhp-esquerda {
+
+    flex: 30%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.class-foto {
+
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0;
+    padding: 0;
+
+}
+
+.class-cabecalho-direita {
+
+    flex: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1 {
+
+    flex: 10%;
+    font-size: clamp(1.5rem, 6vw, 6rem);
+    padding-left: 5%;
+    color: #F39C12;
+    margin: 0;
+
+}
+
+.class-nav {
+
+    flex: 20%;
+    padding-left: 5%;
+    margin-top: 3%;
+    margin-bottom: 0;
+    font-size: clamp(0.5rem, 3vw, 2rem);
+
+}
+
+.class-link-cabecalho {
+
+    text-decoration: none;
+    color: #FFFEE7;
+
+}
+
+.class-link-cabecalho:hover {
+
+    text-decoration: none;
+    color: #f34612;
+
+}
+
+.class-introducao {
+
+    flex: 50%;
+    margin: 0;
+    padding: 0;
+    background-color: #373435;
+    align-items: center;
+
+}
+
+.class-introducao-paragrafo {
+    
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #373435;
+
+}
+
+.class-introducao-paragrafo p {
+
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: clamp(0.5rem, 2vw, 2rem);
+    background-color: #373435;
+
+}
+
+
+
