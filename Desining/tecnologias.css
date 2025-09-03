@@ -4,41 +4,80 @@
     padding: 2%;
     margin-left:  15%;
     margin-right: 15%;
-    background-color: #374345;
+    background-color: #272324;
 
-}
-
-.class-titulo-tecnologias {
-
-    color: #F39C12;
-    font-size: clamp(0.5rem, 2vw, 2rem);
-    margin: 0;
-    
 }
 
 .class-alinhamento-lateral {
 
     display: flex;
+    flex-direction: row;
+    background-color: #373435;
+
+}
+
+.class-esquerda-tecnologia {
+
+    flex: 60%;
+    padding: 2;
+    background-color: #272324;
+
+}
+
+.class-direita-tecnologia {
+
+    display: flex;
+    flex-direction: column;
+    flex: 30%;
+
+}
+
+.class-titulo-tecnologias {
+
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 2%;
+    font-size: clamp(0.5rem, 1.5vw, 1.5rem);
+    background-color: #272324;
+    color: #F39C12;
+
+}
+
+.class-div-icones-h2 {
+
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #272324;
 
 }
 
 .class-icones-tecnologias {
 
-    display: flex;
-    width: 10%;
-    right: 10%;
+
+    margin-top: 2%;
+    margin-right: 2%;
+    width: 12%;
+    right: 12%;
+    border-radius: 10%;
+
+}
+
+.class-nome-tecnologia {
+
+    padding: 0;
+    margin-top: 5%;
+    margin-left: 5%;
 
 }
 
 .class-breve-exp-tecnologica {
 
     display: flex;
-    flex: 30%;
-    margin: 0;
-    padding: 5%;
-
-}
-
-.class-breve-exp-tecnologica h3{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    padding: 0;
+    font-size: clamp(0.5rem, 1vw, 1rem);
 
 }

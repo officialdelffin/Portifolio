@@ -76,7 +76,7 @@ h1 {
     flex: 50%;
     margin: 0;
     padding: 0;
-    background-color: #373435;
+    background-color: #272324;
     align-items: center;
 
 }
@@ -86,7 +86,7 @@ h1 {
     height: 100%;
     display: flex;
     justify-content: center;
-    background-color: #373435;
+    background-color: #272324;
 
 }
 
@@ -95,7 +95,7 @@ h1 {
     padding-left: 10%;
     padding-right: 10%;
     font-size: clamp(0.5rem, 2vw, 2rem);
-    background-color: #373435;
+    background-color: #272324;
 
 }
 
