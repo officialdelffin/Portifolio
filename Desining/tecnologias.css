@@ -18,8 +18,11 @@
 
 .class-esquerda-tecnologia {
 
+    display: flex;
+    flex-direction: column;
     flex: 60%;
     padding: 2;
+    justify-content: center;
     background-color: #272324;
 
 }
@@ -28,7 +31,15 @@
 
     display: flex;
     flex-direction: column;
+    justify-content: center;
     flex: 30%;
+
+}
+
+.class-div-titulo-tecnologias {
+
+    flex: 20%;
+    background-color: #272324;
 
 }
 
@@ -48,17 +59,19 @@
 
     display: flex;
     flex-wrap: wrap;
+    margin-right: 2%;
+    justify-content: left;
+    align-content: flex-end;
     background-color: #272324;
 
 }
 
 .class-icones-tecnologias {
 
-
-    margin-top: 2%;
-    margin-right: 2%;
-    width: 12%;
-    right: 12%;
+    margin-top: 1%;
+    margin-right: 1%;
+    width: 10%;
+    right: 10%;
     border-radius: 10%;
 
 }

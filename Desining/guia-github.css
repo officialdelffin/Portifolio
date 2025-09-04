@@ -1,0 +1,30 @@
+
+.class-div-caminho-git {
+
+    flex-direction: row;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #272425;
+
+}
+
+.class-fundo-caminho-git {
+
+    background-color: #272425;   
+    font-size: clamp(0.5rem, 2vw, 2rem);
+
+}
+
+.class-link-portifolio-github {
+
+    text-decoration: none;
+    color: #FFFEE7;
+    background-color: #272425;
+    
+
+
+}
