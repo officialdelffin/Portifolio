@@ -1,0 +1,27 @@
+
+.class-geral-projetos {
+
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #272324;
+
+}
+
+.class-alinhamento-lateral-projetos {
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.class-esquerda-projetos {
+
+    background-color: #272324;
+
+}
+
+.class-direita-projeto {
+
+    background-color: #272324;
+
+}

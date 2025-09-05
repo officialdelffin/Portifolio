@@ -15,14 +15,14 @@
 .class-fundo-caminho-git {
 
     background-color: #272425;   
-    font-size: clamp(0.5rem, 2vw, 2rem);
+    font-size: clamp(0.5rem, 1.5vw, 1.5rem);
 
 }
 
 .class-link-portifolio-github {
 
     text-decoration: none;
-    color: #FFFEE7;
+    color: #F39C12;
     background-color: #272425;
     
 

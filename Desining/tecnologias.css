@@ -70,23 +70,20 @@
 
     margin-top: 1%;
     margin-right: 1%;
-    width: 10%;
-    right: 10%;
+    width: 11.3%;
+    right: 11.3%;
     border-radius: 10%;
 
 }
 
 .class-nome-tecnologia {
 
-    padding: 0;
-    margin-top: 5%;
-    margin-left: 5%;
+    color: #F39C12;
 
 }
 
 .class-breve-exp-tecnologica {
 
-    display: flex;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 5%;
