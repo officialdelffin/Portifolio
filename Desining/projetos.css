@@ -1,6 +1,7 @@
 
 .class-geral-projetos {
 
+    margin-top: 2%;
     margin-left: 15%;
     margin-right: 15%;
     background-color: #272324;
@@ -16,12 +17,30 @@
 
 .class-esquerda-projetos {
 
+    flex: 7;
     background-color: #272324;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.class-img-projetos{
+
+    width: 100%;
+    
 
 }
 
 .class-direita-projeto {
 
+    flex: 3;
+    background-color: #272324;
+
+}
+
+.class-explicacao-projeto {
+
+    font-size: clamp(1.0rem, 1.0vw, 1.0rem);
     background-color: #272324;
 
 }
