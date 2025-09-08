@@ -22,9 +22,13 @@
 .class-link-portifolio-github {
 
     text-decoration: none;
-    color: #F39C12;
+    color: #f31212;
     background-color: #272425;
     
+}
 
+.class-link-portifolio-github:hover {
+
+    color: #FFFEE7;
 
 }
