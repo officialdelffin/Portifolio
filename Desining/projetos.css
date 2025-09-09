@@ -29,34 +29,85 @@
     margin-left: 3%;
     margin-right: 3%;
     margin-top: 3%;
+    background-color: #272324;
 
 }
 
 .class-img-projetos{
 
-    width: 94%;
-    margin-top: 3%;
-    margin-bottom: 3%;
-    margin-left: 3%;
-    margin-right: 3%;
+    width: 100%;
+    background-color: #272324;
 
 }
 .class-background-painel-projeto {
 
     display: flex;
+    margin: 0;
+    padding: 0;
     flex-direction: row;
     background-color: #272324;
 
 }
 
-.class-titulo-painel {
+.painel {
 
-    margin-left: ;
-    font-size: clamp(1.0rem, 2vw, 2rem);
-    color: aliceblue;
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-bottom: 3%;
+    width: 100%;
+    overflow: hidden;   /* Esconde o que passar para fora */
+    background: #000000;
+    color: #F39C12;
+    font-weight: bold;
+    font-size: 24px;
+    white-space: nowrap; /* Impede quebra de linha */
+}
+
+.painel p {
+
+    display: inline-block;
+    padding-left: 100%;  /* Começa fora da tela à direita */
+    animation: mover 12s linear infinite;
+    background-color: #000000;
+    margin: 3%;
+    text-shadow: 
+        0 0 5px #F39C12,
+        0 0 10px #F39C12,
+        0 0 20px #F39C12,
+        0 0 40px #F39C12; /* Brilho forte */
+    
+}
+
+@keyframes mover {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%); /* Move até sair da esquerda */
+  }
+}
+
+.class-botao-troca-projetos {
+
+    border: none;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 17.5%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    margin-right: 3%;
+    padding: 0;
+    background-color: #F39C12;
+    color: #FFFEE7;
 
 }
 
+.class-botao-troca-projetos:hover {
+
+    color: #F39C12;
+    background-color: #FFFEE7;
+
+}
 
 .class-direita-projeto {
 
@@ -74,7 +125,58 @@
 
 .class-explicacao-projeto {
 
+    padding-right: 4%;
     font-size: clamp(1.0rem, 1.0vw, 1.0rem);
     background-color: #272324;
+
+}
+
+.class-redirecionamenro-projetos {
+
+    display: flex;
+    padding: 0;
+    margin: 0;
+    background-color: #272324;
+    flex-direction: column;
+    
+}
+
+.class-button-link-cinza {
+
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 6%;
+    padding: 3.8%;
+    text-decoration: none;
+    color: #FFFEE7;
+    background-color: #131213;
+
+}
+
+.class-button-link-cinza:hover {
+
+    color: #FFFEE7;
+    background-color: #545454;
+
+}
+
+
+
+.class-button-link-vermelho {
+
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 6%;
+    padding: 3.8%;
+    text-decoration: none;
+    color: #FFFEE7;
+    background-color: #d11c16;
+
+}
+
+.class-button-link-vermelho:hover {
+
+    color: #d11c16;
+    background-color: #FFFEE7;
 
 }

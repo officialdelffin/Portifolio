@@ -1,7 +1,8 @@
 
-*{
+body {
 
-    background-color: #545454 ;
+    background-image: url(/Images/img-fundo.jpg);
+    background-size: cover; /* Faz a imagem cobrir toda a tela */
 
 }
 

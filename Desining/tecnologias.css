@@ -27,15 +27,6 @@
 
 }
 
-.class-direita-tecnologia {
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex: 30%;
-
-}
-
 .class-div-titulo-tecnologias {
 
     flex: 20%;
@@ -76,18 +67,28 @@
 
 }
 
+.class-direita-tecnologia {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 30%;
+    background-color: #272324;
+
+}
+
 .class-nome-tecnologia {
 
     color: #F39C12;
+    background-color: #272324;
 
 }
 
 .class-breve-exp-tecnologica {
 
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 5%;
+    margin: 0;
     padding: 0;
-    font-size: clamp(0.5rem, 1vw, 1rem);
+    font-size: clamp(0.5rem, 1.1vw, 1.1rem);
+    background-color: #272324;
 
 }
